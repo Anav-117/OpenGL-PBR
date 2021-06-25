@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\backpack">
+      <UniqueIdentifier>{3b1ee096-5b4f-42c3-b293-5a57ed08e00b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sponza">
+      <UniqueIdentifier>{223183ed-ee3e-41a1-b0e1-1b80d97197b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sponza\textures">
+      <UniqueIdentifier>{6857dc63-ea24-45e5-9fbb-b4046292aca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\SkyBox">
+      <UniqueIdentifier>{3f3eccf0-99fa-4c21-9f2e-93c405af10c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{fd06ec69-18e0-4953-a602-030ea95a1b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{bfafe5d9-b106-4260-9e1f-06b629168279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\helmet">
+      <UniqueIdentifier>{8e8bcd49-362a-46da-afaf-0c04948e1eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\phone">
+      <UniqueIdentifier>{55915e3f-4aad-4aa7-9c3f-d557eb5280aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\BobaFett">
+      <UniqueIdentifier>{8cef93ab-f205-46d2-a06a-2dcd158d206b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\popcorn">
+      <UniqueIdentifier>{1565d335-0b31-4ddc-aa7b-7cf317db95ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\roman">
+      <UniqueIdentifier>{29baf27a-9265-4788-8a30-50e6cbaca060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Gun">
+      <UniqueIdentifier>{56a0f761-f4c3-40a7-94bf-b5854aceaa24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PBRSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="backpack\backpack.mtl">
+      <Filter>Resource Files\backpack</Filter>
+    </None>
+    <None Include="assimp.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sponza-master\sponza.mtl">
+      <Filter>Resource Files\Sponza</Filter>
+    </None>
+    <None Include="Sponza-master\Thumbs.db">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </None>
+    <None Include="SkyBox.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="back.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="back.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="FinalObjectShader.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="lightShader.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="lightShader.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="modelShader.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="modelShader.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="objectShader.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="objectShader.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="PP.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="PP.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Reflection.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Reflection.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Refraction.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="SimpleDepthShader.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="SimpleDepthShader.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="SkyBox.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="objectShader.gs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="PointDepthShader.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="PointDepthShader.gs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="PointDepthShader.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="GaussianBlur.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="G-Buffer.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="G-Buffer.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="DeferredLighting.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="SSAO.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="SSAOBlur.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="PBRShader.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="PBRShader.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="helmet\helmet.mtl">
+      <Filter>Resource Files\helmet</Filter>
+    </None>
+    <None Include="testShader.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="phone\LP_Retro_Phone.obj.mtl">
+      <Filter>Resource Files\phone</Filter>
+    </None>
+    <None Include="Popcorn_Lobby\Lobby-Center_2k.hdr">
+      <Filter>Resource Files\popcorn</Filter>
+    </None>
+    <None Include="Popcorn_Lobby\Lobby-Center_Env.hdr">
+      <Filter>Resource Files\popcorn</Filter>
+    </None>
+    <None Include="Popcorn_Lobby\Popcorn_Lobby.ibl">
+      <Filter>Resource Files\popcorn</Filter>
+    </None>
+    <None Include="SkyBoxPBR.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="SkyBoxPBR.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="IrradiancePreDiffuse.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="PreSpecular.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="PreSpecularBRDF.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Roman\roman.mtl">
+      <Filter>Resource Files\roman</Filter>
+    </None>
+    <None Include="gun\cerberus.mtl">
+      <Filter>Resource Files\Gun</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="backpack\ao.jpg">
+      <Filter>Resource Files\backpack</Filter>
+    </Image>
+    <Image Include="backpack\diffuse.jpg">
+      <Filter>Resource Files\backpack</Filter>
+    </Image>
+    <Image Include="backpack\normal.png">
+      <Filter>Resource Files\backpack</Filter>
+    </Image>
+    <Image Include="backpack\roughness.jpg">
+      <Filter>Resource Files\backpack</Filter>
+    </Image>
+    <Image Include="backpack\specular.jpg">
+      <Filter>Resource Files\backpack</Filter>
+    </Image>
+    <Image Include="Sponza-master\background.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\background_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\chain_texture.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\chain_texture_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\lion.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\lion_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\lion2_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\spnza_bricks_a_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\spnza_bricks_a_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_arch_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_arch_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_ceiling_a_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_ceiling_a_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_column_a_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_column_a_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_column_b_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_column_b_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_column_c_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_column_c_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_curtain_blue_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_curtain_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_curtain_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_curtain_green_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_details_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_details_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_fabric_blue_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_fabric_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_fabric_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_fabric_green_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_flagpole_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_flagpole_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_floor_a_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_floor_a_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_roof_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_roof_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_thorn_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\sponza_thorn_diff.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\vase_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\vase_dif.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\vase_hanging.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\vase_hanging_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\vase_plant.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\vase_round.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="Sponza-master\vase_round_ddn.tga">
+      <Filter>Resource Files\Sponza\textures</Filter>
+    </Image>
+    <Image Include="skybox\back.jpg">
+      <Filter>Resource Files\SkyBox</Filter>
+    </Image>
+    <Image Include="skybox\bottom.jpg">
+      <Filter>Resource Files\SkyBox</Filter>
+    </Image>
+    <Image Include="skybox\front.jpg">
+      <Filter>Resource Files\SkyBox</Filter>
+    </Image>
+    <Image Include="skybox\left.jpg">
+      <Filter>Resource Files\SkyBox</Filter>
+    </Image>
+    <Image Include="skybox\right.jpg">
+      <Filter>Resource Files\SkyBox</Filter>
+    </Image>
+    <Image Include="skybox\top.jpg">
+      <Filter>Resource Files\SkyBox</Filter>
+    </Image>
+    <Image Include="textures\get.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\matrix.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\container.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\container2_specular.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\hardwood.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\brickwall.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\brickwall_normal.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="helmet\AOMap.png">
+      <Filter>Resource Files\helmet</Filter>
+    </Image>
+    <Image Include="helmet\BaseColor.png">
+      <Filter>Resource Files\helmet</Filter>
+    </Image>
+    <Image Include="helmet\Metalness.png">
+      <Filter>Resource Files\helmet</Filter>
+    </Image>
+    <Image Include="helmet\NormalMap.png">
+      <Filter>Resource Files\helmet</Filter>
+    </Image>
+    <Image Include="helmet\PillarAO.png">
+      <Filter>Resource Files\helmet</Filter>
+    </Image>
+    <Image Include="helmet\Roughness.png">
+      <Filter>Resource Files\helmet</Filter>
+    </Image>
+    <Image Include="helmet\T_Dust.png">
+      <Filter>Resource Files\helmet</Filter>
+    </Image>
+    <Image Include="textures\albedo.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\metallic.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\normal.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\roughness.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="phone\Retro_Phone_base_color.jpg">
+      <Filter>Resource Files\phone</Filter>
+    </Image>
+    <Image Include="phone\Retro_Phone_metallic.jpg">
+      <Filter>Resource Files\phone</Filter>
+    </Image>
+    <Image Include="phone\Retro_Phone_normal.jpg">
+      <Filter>Resource Files\phone</Filter>
+    </Image>
+    <Image Include="phone\Retro_Phone_occlusion.jpg">
+      <Filter>Resource Files\phone</Filter>
+    </Image>
+    <Image Include="phone\Retro_Phone_roughness.jpg">
+      <Filter>Resource Files\phone</Filter>
+    </Image>
+    <Image Include="boba\Boba_D.tga.png">
+      <Filter>Resource Files\BobaFett</Filter>
+    </Image>
+    <Image Include="boba\Boba_M.tga.png">
+      <Filter>Resource Files\BobaFett</Filter>
+    </Image>
+    <Image Include="boba\Boba_N.TGA.png">
+      <Filter>Resource Files\BobaFett</Filter>
+    </Image>
+    <Image Include="boba\Boba_R.tga.png">
+      <Filter>Resource Files\BobaFett</Filter>
+    </Image>
+    <Image Include="Popcorn_Lobby\Lobby-Center_8k_TMap.jpg">
+      <Filter>Resource Files\popcorn</Filter>
+    </Image>
+    <Image Include="Popcorn_Lobby\Lobby-Center_preview.jpg">
+      <Filter>Resource Files\popcorn</Filter>
+    </Image>
+    <Image Include="Popcorn_Lobby\Lobby-Center_Thumb.jpg">
+      <Filter>Resource Files\popcorn</Filter>
+    </Image>
+    <Image Include="Roman\helmet_low_DefaultMaterial_BaseColor.png">
+      <Filter>Resource Files\roman</Filter>
+    </Image>
+    <Image Include="Roman\helmet_low_DefaultMaterial_Metallic.png">
+      <Filter>Resource Files\roman</Filter>
+    </Image>
+    <Image Include="Roman\helmet_low_DefaultMaterial_Normal.png">
+      <Filter>Resource Files\roman</Filter>
+    </Image>
+    <Image Include="Roman\helmet_low_DefaultMaterial_Roughness.png">
+      <Filter>Resource Files\roman</Filter>
+    </Image>
+    <Image Include="gun\Cerberus_A.tga">
+      <Filter>Resource Files\Gun</Filter>
+    </Image>
+    <Image Include="gun\Cerberus_AO.tga">
+      <Filter>Resource Files\Gun</Filter>
+    </Image>
+    <Image Include="gun\Cerberus_M.tga">
+      <Filter>Resource Files\Gun</Filter>
+    </Image>
+    <Image Include="gun\Cerberus_N.tga">
+      <Filter>Resource Files\Gun</Filter>
+    </Image>
+    <Image Include="gun\Cerberus_R.tga">
+      <Filter>Resource Files\Gun</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="backpack\source_attribution.txt">
+      <Filter>Resource Files\backpack</Filter>
+    </Text>
+    <Text Include="backpack\backpack.obj">
+      <Filter>Resource Files\backpack</Filter>
+    </Text>
+    <Text Include="Sponza-master\sponza.obj">
+      <Filter>Resource Files\Sponza</Filter>
+    </Text>
+    <Text Include="helmet\helmet.obj">
+      <Filter>Resource Files\helmet</Filter>
+    </Text>
+    <Text Include="phone\LP_Retro_Phone.obj.obj">
+      <Filter>Resource Files\phone</Filter>
+    </Text>
+    <Text Include="boba\boba.obj">
+      <Filter>Resource Files\BobaFett</Filter>
+    </Text>
+    <Text Include="Roman\roman.obj">
+      <Filter>Resource Files\roman</Filter>
+    </Text>
+    <Text Include="gun\cerberus.obj">
+      <Filter>Resource Files\Gun</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

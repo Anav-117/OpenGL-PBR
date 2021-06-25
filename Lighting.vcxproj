@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{4382e134-ac9c-4fdf-b236-eed7576d5a62}</ProjectGuid>
+    <RootNamespace>Lighting</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\anav2\Desktop\OpenGL\glfw%283.3.4%29\include;C:\Users\anav2\Desktop\OpenGL\glm-0.9.9.8;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\anav2\Desktop\OpenGL\glfw%283.3.4%29\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\anav2\Desktop\OpenGL\glfw%283.3.4%29\include;C:\Users\anav2\Desktop\OpenGL\glm-0.9.9.8;C:\Users\anav2\Desktop\OpenGL\assimp-3.1.1-win-binaries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\anav2\Desktop\OpenGL\glfw%283.3.4%29\lib;C:\Users\anav2\Desktop\OpenGL\assimp-3.1.1-win-binaries\lib64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="PBRSource.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assimp.dll" />
+    <None Include="back.fs" />
+    <None Include="back.vs" />
+    <None Include="backpack\backpack.mtl" />
+    <None Include="DeferredLighting.fs" />
+    <None Include="FinalObjectShader.fs" />
+    <None Include="G-Buffer.fs" />
+    <None Include="G-Buffer.vs" />
+    <None Include="GaussianBlur.fs" />
+    <None Include="gun\cerberus.mtl" />
+    <None Include="helmet\helmet.mtl" />
+    <None Include="IrradiancePreDiffuse.fs" />
+    <None Include="lightShader.fs" />
+    <None Include="lightShader.vs" />
+    <None Include="modelShader.fs" />
+    <None Include="modelShader.vs" />
+    <None Include="objectShader.fs" />
+    <None Include="objectShader.gs" />
+    <None Include="objectShader.vs" />
+    <None Include="PBRShader.fs" />
+    <None Include="PBRShader.vs" />
+    <None Include="phone\LP_Retro_Phone.obj.mtl" />
+    <None Include="PointDepthShader.fs" />
+    <None Include="PointDepthShader.gs" />
+    <None Include="PointDepthShader.vs" />
+    <None Include="Popcorn_Lobby\Lobby-Center_2k.hdr" />
+    <None Include="Popcorn_Lobby\Lobby-Center_Env.hdr" />
+    <None Include="Popcorn_Lobby\Popcorn_Lobby.ibl" />
+    <None Include="PP.fs" />
+    <None Include="PP.vs" />
+    <None Include="PreSpecular.fs" />
+    <None Include="PreSpecularBRDF.fs" />
+    <None Include="Reflection.fs" />
+    <None Include="Reflection.vs" />
+    <None Include="Refraction.fs" />
+    <None Include="Roman\roman.mtl" />
+    <None Include="SimpleDepthShader.fs" />
+    <None Include="SimpleDepthShader.vs" />
+    <None Include="SkyBox.fs" />
+    <None Include="SkyBox.vs" />
+    <None Include="SkyBoxPBR.fs" />
+    <None Include="SkyBoxPBR.vs" />
+    <None Include="Sponza-master\sponza.mtl" />
+    <None Include="Sponza-master\Thumbs.db" />
+    <None Include="SSAO.fs" />
+    <None Include="SSAOBlur.fs" />
+    <None Include="testShader.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="backpack\ao.jpg" />
+    <Image Include="backpack\diffuse.jpg" />
+    <Image Include="backpack\normal.png" />
+    <Image Include="backpack\roughness.jpg" />
+    <Image Include="backpack\specular.jpg" />
+    <Image Include="boba\Boba_D.tga.png" />
+    <Image Include="boba\Boba_M.tga.png" />
+    <Image Include="boba\Boba_N.TGA.png" />
+    <Image Include="boba\Boba_R.tga.png" />
+    <Image Include="gun\Cerberus_A.tga" />
+    <Image Include="gun\Cerberus_AO.tga" />
+    <Image Include="gun\Cerberus_M.tga" />
+    <Image Include="gun\Cerberus_N.tga" />
+    <Image Include="gun\Cerberus_R.tga" />
+    <Image Include="helmet\AOMap.png" />
+    <Image Include="helmet\BaseColor.png" />
+    <Image Include="helmet\Metalness.png" />
+    <Image Include="helmet\NormalMap.png" />
+    <Image Include="helmet\PillarAO.png" />
+    <Image Include="helmet\Roughness.png" />
+    <Image Include="helmet\T_Dust.png" />
+    <Image Include="phone\Retro_Phone_base_color.jpg" />
+    <Image Include="phone\Retro_Phone_metallic.jpg" />
+    <Image Include="phone\Retro_Phone_normal.jpg" />
+    <Image Include="phone\Retro_Phone_occlusion.jpg" />
+    <Image Include="phone\Retro_Phone_roughness.jpg" />
+    <Image Include="Popcorn_Lobby\Lobby-Center_8k_TMap.jpg" />
+    <Image Include="Popcorn_Lobby\Lobby-Center_preview.jpg" />
+    <Image Include="Popcorn_Lobby\Lobby-Center_Thumb.jpg" />
+    <Image Include="Roman\helmet_low_DefaultMaterial_BaseColor.png" />
+    <Image Include="Roman\helmet_low_DefaultMaterial_Metallic.png" />
+    <Image Include="Roman\helmet_low_DefaultMaterial_Normal.png" />
+    <Image Include="Roman\helmet_low_DefaultMaterial_Roughness.png" />
+    <Image Include="skybox\back.jpg" />
+    <Image Include="skybox\bottom.jpg" />
+    <Image Include="skybox\front.jpg" />
+    <Image Include="skybox\left.jpg" />
+    <Image Include="skybox\right.jpg" />
+    <Image Include="skybox\top.jpg" />
+    <Image Include="Sponza-master\background.tga" />
+    <Image Include="Sponza-master\background_ddn.tga" />
+    <Image Include="Sponza-master\chain_texture.tga" />
+    <Image Include="Sponza-master\chain_texture_ddn.tga" />
+    <Image Include="Sponza-master\lion.tga" />
+    <Image Include="Sponza-master\lion2_ddn.tga" />
+    <Image Include="Sponza-master\lion_ddn.tga" />
+    <Image Include="Sponza-master\spnza_bricks_a_ddn.tga" />
+    <Image Include="Sponza-master\spnza_bricks_a_diff.tga" />
+    <Image Include="Sponza-master\sponza_arch_ddn.tga" />
+    <Image Include="Sponza-master\sponza_arch_diff.tga" />
+    <Image Include="Sponza-master\sponza_ceiling_a_ddn.tga" />
+    <Image Include="Sponza-master\sponza_ceiling_a_diff.tga" />
+    <Image Include="Sponza-master\sponza_column_a_ddn.tga" />
+    <Image Include="Sponza-master\sponza_column_a_diff.tga" />
+    <Image Include="Sponza-master\sponza_column_b_ddn.tga" />
+    <Image Include="Sponza-master\sponza_column_b_diff.tga" />
+    <Image Include="Sponza-master\sponza_column_c_ddn.tga" />
+    <Image Include="Sponza-master\sponza_column_c_diff.tga" />
+    <Image Include="Sponza-master\sponza_curtain_blue_diff.tga" />
+    <Image Include="Sponza-master\sponza_curtain_ddn.tga" />
+    <Image Include="Sponza-master\sponza_curtain_diff.tga" />
+    <Image Include="Sponza-master\sponza_curtain_green_diff.tga" />
+    <Image Include="Sponza-master\sponza_details_ddn.tga" />
+    <Image Include="Sponza-master\sponza_details_diff.tga" />
+    <Image Include="Sponza-master\sponza_fabric_blue_diff.tga" />
+    <Image Include="Sponza-master\sponza_fabric_ddn.tga" />
+    <Image Include="Sponza-master\sponza_fabric_diff.tga" />
+    <Image Include="Sponza-master\sponza_fabric_green_diff.tga" />
+    <Image Include="Sponza-master\sponza_flagpole_ddn.tga" />
+    <Image Include="Sponza-master\sponza_flagpole_diff.tga" />
+    <Image Include="Sponza-master\sponza_floor_a_ddn.tga" />
+    <Image Include="Sponza-master\sponza_floor_a_diff.tga" />
+    <Image Include="Sponza-master\sponza_roof_ddn.tga" />
+    <Image Include="Sponza-master\sponza_roof_diff.tga" />
+    <Image Include="Sponza-master\sponza_thorn_ddn.tga" />
+    <Image Include="Sponza-master\sponza_thorn_diff.tga" />
+    <Image Include="Sponza-master\vase_ddn.tga" />
+    <Image Include="Sponza-master\vase_dif.tga" />
+    <Image Include="Sponza-master\vase_hanging.tga" />
+    <Image Include="Sponza-master\vase_hanging_ddn.tga" />
+    <Image Include="Sponza-master\vase_plant.tga" />
+    <Image Include="Sponza-master\vase_round.tga" />
+    <Image Include="Sponza-master\vase_round_ddn.tga" />
+    <Image Include="textures\albedo.png" />
+    <Image Include="textures\brickwall.jpg" />
+    <Image Include="textures\brickwall_normal.jpg" />
+    <Image Include="textures\container.png" />
+    <Image Include="textures\container2_specular.png" />
+    <Image Include="textures\get.png" />
+    <Image Include="textures\hardwood.jpg" />
+    <Image Include="textures\matrix.jpg" />
+    <Image Include="textures\metallic.png" />
+    <Image Include="textures\normal.png" />
+    <Image Include="textures\roughness.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="backpack\source_attribution.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="backpack\backpack.obj">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Sponza-master\sponza.obj">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="helmet\helmet.obj">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="phone\LP_Retro_Phone.obj.obj">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="boba\boba.obj">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Roman\roman.obj">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="gun\cerberus.obj">
+      <FileType>Document</FileType>
+    </Text>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

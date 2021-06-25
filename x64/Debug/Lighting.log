@@ -1,0 +1,42 @@
+﻿  PBRSource.cpp
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\Mesh.h(85,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(209,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(247,29): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(274,50): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(276,50): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(278,50): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(477,25): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(478,26): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(516,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(522,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(523,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(524,20): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(525,20): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(626,44): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(632,44): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(638,46): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(644,46): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(659,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(660,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(664,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(665,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(667,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(668,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\PBRSource.cpp(675,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Lighting.vcxproj -> C:\Users\anav2\Desktop\Git\OpenGL-Lighting-Test\Lighting\x64\Debug\Lighting.exe
